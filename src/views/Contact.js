@@ -2,19 +2,19 @@ function Contact() {
   return (
     <div className="p-4 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="flex mx-24 mt-14">
-          <div className="w-1/2 mr-4">
-            <h4 className="text-5xl text-center font-bold text-gray-700 mb-6">
+        <div className="flex flex-col md:flex-row md:mx-24 mt-14">
+          <div className="md:w-1/2 md:mr-4 mb-6">
+            <h4 className="text-3xl md:text-5xl text-center font-bold text-gray-700 mb-6">
               Contact Me
             </h4>
-            <p className="text-gray-600 text-lg mb-6">
-              I’m interested in freelance opportunities – especially ambitious
-              or large projects. However, if you have other request or question,
-              don’t hesitate to use the form.
+            <p className="text-gray-600 text-lg mb-6 text-justify">
+              I’m interested in freelance, especially ambitious or large
+              projects. However, if you have other request or question, don’t
+              hesitate to use the form.
             </p>
             <form>
-              <div className="flex mb-6">
-                <div class="w-1/2 pr-4">
+              <div className="flex flex-col md:flex-row mb-6">
+                <div class="md:w-1/2 md:pr-4 mb-6">
                   <label
                     for="name"
                     class="block mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400"
@@ -30,7 +30,7 @@ function Contact() {
                     class="w-full px-3 py-2 placeholder-gray-300 border-b-2 focus:border-gray-700 transition-colors ease-in-out duration-200 focus:outline-none"
                   />
                 </div>
-                <div class="w-1/2">
+                <div class="md:w-1/2">
                   <label
                     for="email"
                     class="block mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400"

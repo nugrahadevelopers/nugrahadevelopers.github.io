@@ -12,22 +12,24 @@ function Home() {
   return (
     <div className="p-4">
       <div className="container mx-auto px-4">
-        <div className="flex mx-24 mt-14">
-          <div className="w-1/2 mr-4">
-            <h4 className="text-6xl font-bold text-gray-700">Hi,</h4>
-            <h4 className="text-6xl font-bold text-gray-700">
+        <div className="flex flex-col md:flex-row md:mx-24 mt-14">
+          <div className="mb-6 md:w-1/2 md:mr-4">
+            <h4 className="text-3xl md:text-6xl font-bold text-gray-700">
+              Hi,
+            </h4>
+            <h4 className="text-3xl md:text-6xl font-bold text-gray-700">
               I'm{" "}
-              <span className="text-8xl font-bold text-gray-700">
+              <span className="text-4xl md:text-8xl font-bold text-gray-700">
                 <span className="text-gray-900 bg-gray-100 hover:bg-gray-900 hover:text-gray-100 transition-colors duration-200">
                   R
                 </span>
                 eno,
               </span>
             </h4>
-            <h4 className="text-6xl font-bold text-gray-700 mb-5">
+            <h4 className="text-3xl md:text-6xl font-bold text-gray-700 mb-5">
               web developer
             </h4>
-            <h4 className="text-2xl font-fira font-semibold text-gray-400 mb-16">
+            <h4 className="text-lg md:text-2xl font-fira font-semibold text-gray-400 mb-4 md:mb-16">
               Full-Stack Developer || Tech Enthusiast{""}
               <span className="animate-ping">|</span>
             </h4>
@@ -37,7 +39,7 @@ function Home() {
               </button>
             </Link>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <div className="mx-auto">
               <div className="relative overflow-hidden rounded-xl shadow-2xl flex bg-light-blue-500 pb-0">
                 <div className="absolute inset-0 bg-black bg-opacity-75"></div>

@@ -2,26 +2,26 @@ function About() {
   return (
     <div className="p-4">
       <div className="container mx-auto px-4">
-        <div className="flex mx-24 mt-14">
-          <div className="w-1/2 p-2">
-            <h4 className="text-5xl text-center font-bold text-gray-700 mb-6">
+        <div className="flex flex-col md:flex-row md:mx-24 mt-14">
+          <div className="md:w-1/2 md:p-2 mb-6">
+            <h4 className="text-3xl md:text-5xl text-center font-bold text-gray-700 mb-6">
               Me, Myself, and Time
             </h4>
-            <p className="px-8 text-justify text-lg text-gray-600 mb-2">
+            <p className="md:px-8 text-justify text-lg text-gray-600 mb-2">
               I'm a full-stack developer based on Indonesia. I have a serious
               passion in web programming, trying a new tech it so satisfying.
             </p>
-            <p className="px-8 text-justify text-lg text-gray-600 mb-2">
+            <p className="md:px-8 text-justify text-lg text-gray-600 mb-2">
               Excellent problem solving skills, landing page development, web
               content management, collaborative skills. Love singing, movies, TV
               series and a little outdoor activity.
             </p>
-            <p className="px-8 text-justify text-lg text-gray-600">
+            <p className="md:px-8 text-justify text-lg text-gray-600">
               Interested in the entire frontend backend spectrum and working on
               ambitious projects with positive people.
             </p>
           </div>
-          <div className="w-1/2 p-2">
+          <div className="md:w-1/2 md:p-2">
             <h4 className="text-5xl font-bold text-center text-gray-700 mb-6">
               Skills
             </h4>

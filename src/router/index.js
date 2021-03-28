@@ -2,6 +2,8 @@ import { Route, Switch } from "react-router-dom";
 
 import Home from "../views/Home";
 import About from "../views/About";
+import Contact from "../views/Contact";
+import Portfolio from "../views/Portfolio";
 
 import Navbar from "../components/Navbar";
 
@@ -13,6 +15,14 @@ const routes = [
       {
         path: "/about",
         component: About,
+      },
+      {
+        path: "/portfolio",
+        component: Portfolio,
+      },
+      {
+        path: "/contact",
+        component: Contact,
       },
     ],
   },

@@ -27,13 +27,13 @@ function Navbar() {
             About
           </NavLink>
           <NavLink
-            to="#"
+            to="/portfolio"
             className="pb-4 pt-1 px-4 rounded-t-lg hover:shadow-inner hover:bg-gray-300 hover:text-gray-500 focus:outline-none"
           >
             Portfolio
           </NavLink>
           <NavLink
-            to="#"
+            to="/contact"
             className="pb-4 pt-1 px-4 rounded-t-lg hover:shadow-inner hover:bg-gray-300 hover:text-gray-500 focus:outline-none"
           >
             Contact

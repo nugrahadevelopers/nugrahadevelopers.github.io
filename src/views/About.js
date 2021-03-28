@@ -22,9 +22,8 @@ function About() {
             </p>
           </div>
           <div className="w-1/2 p-2">
-            <h4 className="text-5xl font-bold text-gray-700">Skills &</h4>
-            <h4 className="text-5xl font-bold text-gray-700 mb-6">
-              Experience
+            <h4 className="text-5xl font-bold text-center text-gray-700 mb-6">
+              Skills
             </h4>
             <div className="flex flex-col">
               <div className="flex items-center justify-center mb-6">
